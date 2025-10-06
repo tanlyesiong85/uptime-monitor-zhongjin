@@ -33,7 +33,7 @@ jobs:
       - name: Run monitor
         env:
           # Monitor one or more URLs (comma-separated)
-          URLS: "https://insken.iconcept-staging.com/?uptime=1, https://ajendless.com.my/?uptime=1, http://akyu.com.my/?uptime=1, http://caam.gov.my/?uptime=1, https://crystalwrap.my/?uptime=1, https://felcra.com.my/?uptime=1, http://iconcept.com.my/?uptime=1, https://iconceptdigital.com/uptime-check.txt, https://perakturfclub.my/?uptime=1, https://selangoraviationshow.com/?uptime=1, https://selangorsummit.com/uptime-check/?uptime=1, https://semy.com.my/?uptime=1, https://www.beaandbow.com/?uptime=1, https://www.fgvholdings.com/?uptime=1, https://www.insken.gov.my/uptime-check/?uptime=1, https://www.insken.gov.my/uptime-check/?uptime=1, https://www.selangorturfclub.com/?uptime=1, https://www.sgm.org.my/?uptime=1, http://investselangor.my/uptime-check/?uptime=1, https://officialenergyasia.com/?uptime=1"
+          URLS: "https://ajendless.com.my/?uptime=1, http://akyu.com.my/?uptime=1, http://caam.gov.my/?uptime=1, https://crystalwrap.my/?uptime=1, https://felcra.com.my/?uptime=1, http://iconcept.com.my/?uptime=1, https://iconceptdigital.com/uptime-check.txt, https://perakturfclub.my/?uptime=1, https://selangoraviationshow.com/?uptime=1, https://selangorsummit.com/uptime-check/?uptime=1, https://semy.com.my/?uptime=1, https://www.beaandbow.com/?uptime=1, https://www.fgvholdings.com/?uptime=1, https://www.insken.gov.my/uptime-check/?uptime=1, https://www.insken.gov.my/uptime-check/?uptime=1, https://www.selangorturfclub.com/?uptime=1, https://www.sgm.org.my/?uptime=1, http://investselangor.my/uptime-check/?uptime=1"
           TIMEOUT: "20"
           EXPECT: ""   # optional regex; leave empty to skip content check
 
